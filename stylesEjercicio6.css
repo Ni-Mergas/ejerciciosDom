@@ -1,0 +1,16 @@
+
+.contenedor-elemento-uno,
+.contenedor-elemento-dos{
+    padding: 15px;
+    height: 100px;
+    border: 3px solid black;
+    border-radius: 25px;
+    margin-bottom:20px; 
+}
+
+.btn-active:focus,
+.btn-active:active{
+    background-color: #E8B7F9;
+    color: black;
+    outline: #E8B7F9;
+}
