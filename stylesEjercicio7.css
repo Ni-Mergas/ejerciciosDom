@@ -1,0 +1,7 @@
+.contenedor-seccion{
+    width: 100vh;
+    height: 600px;
+    border-top: 2px solid black;
+    padding: 20px;
+    text-align: center
+}
