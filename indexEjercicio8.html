@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento Mouseover</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" 
+    crossorigin="anonymous"
+/>
+</head>
+<body class="d-flex justify-content-center p-5 vh-100 bg-info">
+    <div class="contenedor d-flex justify-content-center align-item-center flex-wrap flex-column  p-5">
+    <div class="contenedor-centrado d-flex justify-content-center align-item-center flex-wrap flex-column bg-info-subtle border border-black rounded-5 p-5">
+        <h1 class="">Evento Mouseover</h1>
+        <div class="contenedor-imagen ">
+            <img id="descripcion" onmouseover="mouseOver()" onmouseout="mouseOut()"  src="Imagenes/millos.jpg"/>
+            <div id="descripcion-img" class="descripcionImg text-center fs-5 fw-bold text-primary">
+            </div>    
+        </div>
+    </div>
+    </div>
+    <script src="appEjercicio8.js"></script>
+</body>
+</html>
